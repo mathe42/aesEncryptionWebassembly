@@ -1,0 +1,20 @@
+{
+  "name": "@ecnordbund/crypto",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "aes-wasm": "^1.1.2",
+    "sha3-wasm": "^1.0.0"
+  }
+}
